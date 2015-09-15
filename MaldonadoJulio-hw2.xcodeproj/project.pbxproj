@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C6748C1BA8C1A300305903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6748B1BA8C1A300305903 /* AppDelegate.swift */; };
+		43C6748E1BA8C1A300305903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C6748D1BA8C1A300305903 /* ViewController.swift */; };
+		43C674911BA8C1A300305903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C6748F1BA8C1A300305903 /* Main.storyboard */; };
+		43C674931BA8C1A300305903 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C674921BA8C1A300305903 /* Images.xcassets */; };
+		43C674961BA8C1A300305903 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43C674941BA8C1A300305903 /* LaunchScreen.xib */; };
+		43C674A21BA8C1A300305903 /* MaldonadoJulio_hw2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C674A11BA8C1A300305903 /* MaldonadoJulio_hw2Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C6749C1BA8C1A300305903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C6747E1BA8C1A300305903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C674851BA8C1A300305903;
+			remoteInfo = "MaldonadoJulio-hw2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C674861BA8C1A300305903 /* MaldonadoJulio-hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaldonadoJulio-hw2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C6748A1BA8C1A300305903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C6748B1BA8C1A300305903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43C6748D1BA8C1A300305903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43C674901BA8C1A300305903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C674921BA8C1A300305903 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		43C674951BA8C1A300305903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		43C6749B1BA8C1A300305903 /* MaldonadoJulio-hw2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaldonadoJulio-hw2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C674A01BA8C1A300305903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C674A11BA8C1A300305903 /* MaldonadoJulio_hw2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaldonadoJulio_hw2Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C674831BA8C1A300305903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C674981BA8C1A300305903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C6747D1BA8C1A300305903 = {
+			isa = PBXGroup;
+			children = (
+				43C674881BA8C1A300305903 /* MaldonadoJulio-hw2 */,
+				43C6749E1BA8C1A300305903 /* MaldonadoJulio-hw2Tests */,
+				43C674871BA8C1A300305903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C674871BA8C1A300305903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C674861BA8C1A300305903 /* MaldonadoJulio-hw2.app */,
+				43C6749B1BA8C1A300305903 /* MaldonadoJulio-hw2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C674881BA8C1A300305903 /* MaldonadoJulio-hw2 */ = {
+			isa = PBXGroup;
+			children = (
+				43C6748B1BA8C1A300305903 /* AppDelegate.swift */,
+				43C6748D1BA8C1A300305903 /* ViewController.swift */,
+				43C6748F1BA8C1A300305903 /* Main.storyboard */,
+				43C674921BA8C1A300305903 /* Images.xcassets */,
+				43C674941BA8C1A300305903 /* LaunchScreen.xib */,
+				43C674891BA8C1A300305903 /* Supporting Files */,
+			);
+			path = "MaldonadoJulio-hw2";
+			sourceTree = "<group>";
+		};
+		43C674891BA8C1A300305903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C6748A1BA8C1A300305903 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43C6749E1BA8C1A300305903 /* MaldonadoJulio-hw2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				43C674A11BA8C1A300305903 /* MaldonadoJulio_hw2Tests.swift */,
+				43C6749F1BA8C1A300305903 /* Supporting Files */,
+			);
+			path = "MaldonadoJulio-hw2Tests";
+			sourceTree = "<group>";
+		};
+		43C6749F1BA8C1A300305903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C674A01BA8C1A300305903 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C674851BA8C1A300305903 /* MaldonadoJulio-hw2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C674A51BA8C1A300305903 /* Build configuration list for PBXNativeTarget "MaldonadoJulio-hw2" */;
+			buildPhases = (
+				43C674821BA8C1A300305903 /* Sources */,
+				43C674831BA8C1A300305903 /* Frameworks */,
+				43C674841BA8C1A300305903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MaldonadoJulio-hw2";
+			productName = "MaldonadoJulio-hw2";
+			productReference = 43C674861BA8C1A300305903 /* MaldonadoJulio-hw2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C6749A1BA8C1A300305903 /* MaldonadoJulio-hw2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C674A81BA8C1A300305903 /* Build configuration list for PBXNativeTarget "MaldonadoJulio-hw2Tests" */;
+			buildPhases = (
+				43C674971BA8C1A300305903 /* Sources */,
+				43C674981BA8C1A300305903 /* Frameworks */,
+				43C674991BA8C1A300305903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C6749D1BA8C1A300305903 /* PBXTargetDependency */,
+			);
+			name = "MaldonadoJulio-hw2Tests";
+			productName = "MaldonadoJulio-hw2Tests";
+			productReference = 43C6749B1BA8C1A300305903 /* MaldonadoJulio-hw2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C6747E1BA8C1A300305903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Julio Maldonado";
+				TargetAttributes = {
+					43C674851BA8C1A300305903 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					43C6749A1BA8C1A300305903 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 43C674851BA8C1A300305903;
+					};
+				};
+			};
+			buildConfigurationList = 43C674811BA8C1A300305903 /* Build configuration list for PBXProject "MaldonadoJulio-hw2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C6747D1BA8C1A300305903;
+			productRefGroup = 43C674871BA8C1A300305903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C674851BA8C1A300305903 /* MaldonadoJulio-hw2 */,
+				43C6749A1BA8C1A300305903 /* MaldonadoJulio-hw2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C674841BA8C1A300305903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C674911BA8C1A300305903 /* Main.storyboard in Resources */,
+				43C674961BA8C1A300305903 /* LaunchScreen.xib in Resources */,
+				43C674931BA8C1A300305903 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C674991BA8C1A300305903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C674821BA8C1A300305903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C6748E1BA8C1A300305903 /* ViewController.swift in Sources */,
+				43C6748C1BA8C1A300305903 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C674971BA8C1A300305903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C674A21BA8C1A300305903 /* MaldonadoJulio_hw2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C6749D1BA8C1A300305903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C674851BA8C1A300305903 /* MaldonadoJulio-hw2 */;
+			targetProxy = 43C6749C1BA8C1A300305903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C6748F1BA8C1A300305903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C674901BA8C1A300305903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43C674941BA8C1A300305903 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C674951BA8C1A300305903 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C674A31BA8C1A300305903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43C674A41BA8C1A300305903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43C674A61BA8C1A300305903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MaldonadoJulio-hw2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43C674A71BA8C1A300305903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MaldonadoJulio-hw2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43C674A91BA8C1A300305903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MaldonadoJulio-hw2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaldonadoJulio-hw2.app/MaldonadoJulio-hw2";
+			};
+			name = Debug;
+		};
+		43C674AA1BA8C1A300305903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MaldonadoJulio-hw2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaldonadoJulio-hw2.app/MaldonadoJulio-hw2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C674811BA8C1A300305903 /* Build configuration list for PBXProject "MaldonadoJulio-hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C674A31BA8C1A300305903 /* Debug */,
+				43C674A41BA8C1A300305903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C674A51BA8C1A300305903 /* Build configuration list for PBXNativeTarget "MaldonadoJulio-hw2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C674A61BA8C1A300305903 /* Debug */,
+				43C674A71BA8C1A300305903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43C674A81BA8C1A300305903 /* Build configuration list for PBXNativeTarget "MaldonadoJulio-hw2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C674A91BA8C1A300305903 /* Debug */,
+				43C674AA1BA8C1A300305903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C6747E1BA8C1A300305903 /* Project object */;
+}
