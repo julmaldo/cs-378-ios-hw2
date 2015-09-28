@@ -156,6 +156,7 @@
 		43C6747E1BA8C1A300305903 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Julio Maldonado";
 				TargetAttributes = {
@@ -411,6 +412,7 @@
 				43C674A71BA8C1A300305903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C674A81BA8C1A300305903 /* Build configuration list for PBXNativeTarget "MaldonadoJulio-hw2Tests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +421,7 @@
 				43C674AA1BA8C1A300305903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
