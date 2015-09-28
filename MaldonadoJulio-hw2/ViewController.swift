@@ -18,11 +18,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // ispose of any resources that can be recreated.
     }
 
     //makes the keyboard disapear when clicking on something outside the keyboard
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         view.endEditing(true)
         super.touchesBegan(touches, withEvent: event)
     }
@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     //button handler checks if fields are filled and then changes messageLabel to "name - city"
     @IBAction func btnSaveClicked(sender: AnyObject) {
         self.view.endEditing(true)
-        if textFeildFilled(name.text, city: city.text) {
+        if textFeildFilled(name.text!, city: city.text!) {
             messageLabel.text = "\(name.text) - \(city.text)"
         } else{
             messageLabel.text = "You must enter a value for *both* name and city!!"
