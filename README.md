@@ -1,4 +1,7 @@
 # cs-378-ios-hw2
+In this exercise, I learned about basic app elements like text fields and how to take strings created by them and displaying them at the bottom of the app. Also learned how to hide the keyboard upon touching return or any area outside keyboard.
+Below is the assignment discription
+
 Description: This will be an exercise in defining and creating a simple user interface.
 
 The application behavior should be:
