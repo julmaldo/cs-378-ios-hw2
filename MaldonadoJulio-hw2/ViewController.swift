@@ -22,9 +22,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     //makes the keyboard disapear when clicking on something outside the keyboard
-    func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    /*func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         view.endEditing(true)
         super.touchesBegan(touches, withEvent: event)
+    }*/
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        if let touches = touches.first {
+            view.endEditing(true)
+        }
+        super.touchesBegan(touches, withEvent:event)
     }
     
     //viewcontroller variables
